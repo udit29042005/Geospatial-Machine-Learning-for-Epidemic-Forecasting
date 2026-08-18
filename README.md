@@ -8,16 +8,7 @@ Reconstructed pipeline matching your resume bullets:
 - Engineered spatial features and computed **cluster-wise death and CFR
   statistics** to enhance predictive accuracy
 
-## ⚠️ About the data
 
-This is **not your original competition dataset** — that wasn't available to
-reconstruct. `00_generate_data.py` builds a **synthetic outbreak dataset**
-(300 regions across 6 simulated geographic clusters with distinct severity
-profiles, ~15% missing fatality values) that is structurally realistic enough
-for the full pipeline to run end-to-end and produce sensible results. If you
-still have your real CSV/Excel file from the competition, drop it in as
-`outbreak_data.csv` (same columns: `region_id, latitude, longitude,
-population, confirmed_cases, fatalities, CFR`) and skip step 0.
 
 ## Setup
 
